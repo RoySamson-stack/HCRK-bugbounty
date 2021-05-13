@@ -1,18 +1,18 @@
 import React from 'react'
-import {NavLink} from 'reatc-router-dom'
+import {NavLink} from 'react-router-dom'
 
 function NavBar(){
    return(
-      <nav className="top-0 position-absolute sticky ">
+      <nav className=" rounded top-0 position-absolute sticky justify-between bg-blue-500 h-20">
          <NavLink
             to="/"
             exact
-            className="text-bold "
+            className="cursive text-xl"
          >HCRK</NavLink>
       <NavLink
             to='/'
             exact
-            className=""
+            className="inline-flex items-center justify-center py-3 px3"
          >
       Home
       </NavLink>
