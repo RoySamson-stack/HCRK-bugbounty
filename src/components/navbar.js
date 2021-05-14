@@ -3,7 +3,7 @@ import {NavLink} from 'react-router-dom'
 
 function NavBar(){
    return(
-      <nav className=" rounded top-0 position-absolute sticky justify-between bg-blue-500 h-20">
+      <nav className=" items-center rounded top-0 mx-auto flex position-absolute sticky justify-between bg-blue-500 h-20">
          <NavLink
             to="/"
             exact

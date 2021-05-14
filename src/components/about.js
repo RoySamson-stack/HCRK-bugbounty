@@ -4,12 +4,16 @@ import React from 'react'
 function About(){
    return (
       <main>
-         <div>
-         <h1>About</h1>
-            <div className="grd grid-rows-3 grid-flow-col gap-4"></div>
-            <div className="row-span-3 shadow-xl"></div>
-            <div className="row-span-1 col-span-2 shadow-xl"></div>
-            <div className="row-span02 col-span-2 shadow-xl "></div>
+         <div className="justify-center items-right h-screen ">
+         <h1 className="text-5xl cursive item-center justify-center flex text-tranform: uppercase ">our platform offers</h1>
+            <div className="grid grid-cols-3 gap-8 flex justify-center items-center overflow-hidden">
+            <div className="bg-red-500 h-20 rounded items-baseline">
+                  <image source='' className="h-48 w-full object-cover" />
+                  
+            </div>
+            <div className="bg-red-500 rounded h-full">Hello</div>
+            <div className="bg-red-500 h-20 rounded ">Hello</div>
+            </div>
          </div>
       </main>
    )
