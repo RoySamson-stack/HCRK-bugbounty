@@ -13,4 +13,8 @@
 }
 .home-name{
   font-size: 150px;
+}.form{
+  text-align: center;
+}main{
+  margin: 30px;
 }
